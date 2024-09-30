@@ -112,3 +112,127 @@
 [36m[1m2024-09-29 23:47:21 info START: Attempting Connection to DB[22m[39m
 [36m[1m2024-09-29 23:47:21 info Status: Server is Running Successfully on port 3001[22m[39m
 [36m[1m2024-09-29 23:47:24 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 20:54:59 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 20:54:59 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 20:55:03 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 20:55:17 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 20:55:18 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 20:55:58 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 20:55:58 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 20:56:02 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 20:56:06 info START: Attempting to Login[22m[39m
+[31m[1m2024-09-30 20:56:06 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-09-30 20:56:52 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 20:56:52 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 20:56:54 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 20:57:12 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 20:57:28 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 20:57:30 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 20:57:46 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 20:57:47 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:00:22 info START: User Creation has Started[22m[39m
+[36m[1m2024-09-30 21:00:22 info END: username and password are similiar[22m[39m
+[36m[1m2024-09-30 21:00:29 info START: User Creation has Started[22m[39m
+[36m[1m2024-09-30 21:00:31 info END: User Created Successully[22m[39m
+[36m[1m2024-09-30 21:00:53 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:00:54 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:05:52 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:05:52 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:05:55 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:06:05 info START: Attempting to Login[22m[39m
+[31m[1m2024-09-30 21:06:06 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-09-30 21:07:00 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:07:00 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:07:02 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:07:34 info START: Attempting to Login[22m[39m
+[31m[1m2024-09-30 21:07:34 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-09-30 21:08:22 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:08:22 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:08:26 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:08:28 info START: Attempting to Login[22m[39m
+[31m[1m2024-09-30 21:08:29 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-09-30 21:08:45 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:08:45 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:08:48 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:08:53 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:08:53 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:09:32 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:09:32 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:09:37 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:09:48 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:09:48 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:09:51 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:10:00 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:10:01 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:11:36 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:11:36 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:11:40 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:11:47 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:11:47 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:12:39 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:12:39 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:12:44 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:12:48 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:12:49 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:13:12 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:13:13 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:14:08 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:14:08 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:15:46 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:15:46 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:15:49 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:15:55 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:15:56 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:16:16 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:16:16 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:16:18 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:16:20 info START: Attempting to Login[22m[39m
+[31m[1m2024-09-30 21:16:21 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-09-30 21:16:42 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:16:42 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:16:45 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:16:53 info START: Attempting to Login[22m[39m
+[31m[1m2024-09-30 21:16:54 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-09-30 21:24:13 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:24:13 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:24:19 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:24:19 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:24:24 info END: DB connection Was not Successful, Try Again![22m[39m
+[36m[1m2024-09-30 21:24:28 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:25:41 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:25:41 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:25:46 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:25:58 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:25:58 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:26:45 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:26:46 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:26:51 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:26:58 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:26:58 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-09-30 21:31:08 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:31:08 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:31:11 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:31:47 info START: Attempting to Login[22m[39m
+[31m[1m2024-09-30 21:31:48 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-09-30 21:33:41 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:33:41 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:33:44 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:33:44 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:33:49 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:33:52 info START: Attempting to Login[22m[39m
+[31m[1m2024-09-30 21:33:53 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-09-30 21:37:14 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:37:14 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:37:19 info END: DB connection Was not Successful, Try Again![22m[39m
+[36m[1m2024-09-30 21:37:28 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:37:28 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:37:32 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:37:38 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:37:39 info END: Logged In Successfully[22m[39m
+[36m[1m2024-09-30 21:38:13 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:38:13 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:38:39 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-09-30 21:38:39 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-09-30 21:38:42 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-09-30 21:38:47 info START: Attempting to Login[22m[39m
+[36m[1m2024-09-30 21:38:48 info END: Logged In Successfully[22m[39m

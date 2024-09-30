@@ -1,5 +1,5 @@
 import bcrypt from 'bcrypt'
-import * as jwt from 'jsonwebtoken'
+import jwt from 'jsonwebtoken'
 import { config } from 'dotenv'
 
 config()
@@ -13,13 +13,13 @@ export const hashPassword = async(password) =>{
 }
 
 export const verifyPassword = async(pass1, pass2) =>{
-    await bcrypt.compare(pass1, pass2)
+    return await bcrypt.compare(pass1, pass2)
+
 }
 
 
 export const createtoken = (id) =>{
     const token = jwt.sign({id}, jwt_secret, {expiresIn: jwt_lifetime})
-
     return token
 }
 

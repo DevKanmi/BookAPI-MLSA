@@ -43,3 +43,30 @@ export const registerUser = async(req, res, next) =>{
     }
 }
 
+export const userLogin = async(req, res, next) =>{
+    const {username, password} = req.body
+    if(!username || !password) return errorResponse(res, StatusCodes.NOT_FOUND, `Username and Password is Required`)
+
+    try{
+        logger.info(`START: Attempting to Login`)
+
+        const user = await User.findOne({username})
+        if(!user) return errorResponse(res, StatusCodes.NOT_FOUND, `Username does not exist Please Create an account`)
+
+        const isPasswordCorrect = await verifyPassword(password, user.password)
+        
+        if(!isPasswordCorrect){
+                console.log(`my pass is ${password}, user password is ${user.password}`)
+                logger.info(`END: Login Attempt was unsuccessful`)
+                return errorResponse(res, StatusCodes.NOT_FOUND, `Incorrect Password! Try again!`)
+        }
+        const accessToken = createtoken(user._id)
+        logger.info(`END: Logged In Successfully`)
+        return successResponse(res, StatusCodes.OK, {user, token: accessToken})
+        
+    }
+    catch(error){
+        console.log(error)
+        next(error)
+    }
+}
