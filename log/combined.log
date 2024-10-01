@@ -236,3 +236,41 @@
 [36m[1m2024-09-30 21:38:42 info END: Successfully Connected to DB[22m[39m
 [36m[1m2024-09-30 21:38:47 info START: Attempting to Login[22m[39m
 [36m[1m2024-09-30 21:38:48 info END: Logged In Successfully[22m[39m
+[36m[1m2024-10-01 20:48:38 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 20:48:38 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 20:48:40 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 20:50:05 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 20:50:05 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 20:50:09 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 20:51:21 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 20:51:21 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 20:51:29 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 20:51:49 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 20:51:49 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 20:51:51 info END: Successfully Connected to DB[22m[39m
+[31m[1m2024-10-01 20:52:08 error [POST /api/login] Requested Resource/Route Could not be Found[22m[39m
+[31m[1m2024-10-01 20:52:18 error [POST /api/users/login] Requested Resource/Route Could not be Found[22m[39m
+[36m[1m2024-10-01 20:52:22 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-01 20:52:23 info END: Logged In Successfully[22m[39m
+[36m[1m2024-10-01 20:52:53 info START: Attempting creation of a book[22m[39m
+[36m[1m2024-10-01 20:52:53 info END: Book Creation was Successful[22m[39m
+[36m[1m2024-10-01 20:55:18 info START: Attempting getting all Books[22m[39m
+[31m[1m2024-10-01 20:55:18 error [GET /api/books/myBooks] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-10-01 20:56:36 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 20:56:36 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 20:56:40 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 20:56:50 info START: Attempting getting all Books[22m[39m
+[36m[1m2024-10-01 20:57:25 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 20:57:25 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 20:57:29 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 20:57:38 info START: Attempting getting all Books[22m[39m
+[36m[1m2024-10-01 20:57:38 info END: Books were returned Succesfully[22m[39m
+[36m[1m2024-10-01 20:58:29 info START: Attempting creation of a book[22m[39m
+[36m[1m2024-10-01 20:58:30 info END: Book Creation was Successful[22m[39m
+[36m[1m2024-10-01 20:58:39 info START: Attempting getting all Books[22m[39m
+[36m[1m2024-10-01 20:58:40 info END: Books were returned Succesfully[22m[39m
+[36m[1m2024-10-01 20:59:31 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 20:59:31 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 20:59:33 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 21:00:00 info START: Attempting creation of a book[22m[39m
+[36m[1m2024-10-01 21:00:00 info END: Book Creation was Successful[22m[39m

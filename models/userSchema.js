@@ -20,7 +20,12 @@ const UserSchema = Schema({
         type: String,
         required: true,
         unique: true
-    }
+    },
+
+    books: [{
+        type: Schema.Types.ObjectId,
+        ref: 'Book'
+    }]
 })
 
 //Returns Fields in JSON format.

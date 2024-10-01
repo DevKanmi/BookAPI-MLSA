@@ -12,3 +12,6 @@
 [31m[1m2024-09-30 21:16:54 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
 [31m[1m2024-09-30 21:31:48 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
 [31m[1m2024-09-30 21:33:53 error [POST /api/user/login] Token Has Expired, Login Again![22m[39m
+[31m[1m2024-10-01 20:52:08 error [POST /api/login] Requested Resource/Route Could not be Found[22m[39m
+[31m[1m2024-10-01 20:52:18 error [POST /api/users/login] Requested Resource/Route Could not be Found[22m[39m
+[31m[1m2024-10-01 20:55:18 error [GET /api/books/myBooks] Token Has Expired, Login Again![22m[39m

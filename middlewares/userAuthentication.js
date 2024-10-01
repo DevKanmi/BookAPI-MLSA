@@ -6,7 +6,7 @@ import ApiError from './errorHandler/api-error.js'
 export const tokenAuthentication = async(req, res, next) =>{
     const authHeader = req.headers['authorization']
 
-    if(!authHeader) return new ApiError.badRequest(`No Token Was found!`)
+    if(!authHeader) return ApiError.badRequest(`No Token Was found!`)
     
     if(authHeader.startsWith('Bearer ')){
         const token = authHeader.replace('Bearer ','')
