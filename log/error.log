@@ -15,3 +15,7 @@
 [31m[1m2024-10-01 20:52:08 error [POST /api/login] Requested Resource/Route Could not be Found[22m[39m
 [31m[1m2024-10-01 20:52:18 error [POST /api/users/login] Requested Resource/Route Could not be Found[22m[39m
 [31m[1m2024-10-01 20:55:18 error [GET /api/books/myBooks] Token Has Expired, Login Again![22m[39m
+[31m[1m2024-10-01 21:16:03 error [DELETE /api/books/66fc5315b96da3953349d8d/delete] Malformatted Id[22m[39m
+[31m[1m2024-10-01 21:17:18 error [DELETE /api/books/66fc5315b96da3953349d8d/delete] Malformatted Id[22m[39m
+[31m[1m2024-10-01 21:20:23 error [DELETE /api/books/66fc5315b96da3953349d8dy/delete] Malformatted Id[22m[39m
+[31m[1m2024-10-01 21:20:26 error [DELETE /api/books/66fc5315b96da3953349d8dy/delete] Malformatted Id[22m[39m

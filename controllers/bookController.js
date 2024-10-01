@@ -71,3 +71,33 @@ export const getAllBooks = async(req, res, next) =>{
     }
 }
 
+export const deleteABook = async(req, res, next) =>{
+    if(!req.user) errorResponse(res, StatusCodes.UNAUTHORIZED, `only Logged In users are allowed to access this!`)
+        const userId = req.user.id
+        const bookid = req.params.id
+    
+        try{
+            logger.info(`START: Deletion of A book`)
+    
+            const user = await User.findOne({_id: userId})
+            if(!user){ 
+                logger.info(`END : User was not found`)
+                return errorResponse(res, StatusCodes.NOT_FOUND, `Such User does not exist!`)
+            }
+
+            const book = await Book.findByIdAndDelete({_id: bookid, user: userId})
+            if(!book) return errorResponse(res, StatusCodes.UNAUTHORIZED, `Only User that Created Book can delete!`)
+
+            await User.updateMany(
+                {books: req.params.id},
+                {$pull :{books: req.params.id}})
+
+            logger.info(`END: Deletion of book successful`)
+            successResponse(res, StatusCodes.NO_CONTENT, `Book has been deleted`)
+            
+        }
+        catch(error){
+            console.log(error)
+            next(error)
+        }
+}

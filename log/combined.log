@@ -274,3 +274,32 @@
 [36m[1m2024-10-01 20:59:33 info END: Successfully Connected to DB[22m[39m
 [36m[1m2024-10-01 21:00:00 info START: Attempting creation of a book[22m[39m
 [36m[1m2024-10-01 21:00:00 info END: Book Creation was Successful[22m[39m
+[36m[1m2024-10-01 21:13:52 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 21:13:52 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 21:13:56 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 21:15:17 info START: Attempting getting all Books[22m[39m
+[36m[1m2024-10-01 21:15:18 info END: Books were returned Succesfully[22m[39m
+[36m[1m2024-10-01 21:15:49 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 21:15:49 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 21:15:59 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 21:16:03 info START: Deletion of A book[22m[39m
+[31m[1m2024-10-01 21:16:03 error [DELETE /api/books/66fc5315b96da3953349d8d/delete] Malformatted Id[22m[39m
+[36m[1m2024-10-01 21:17:08 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 21:17:08 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 21:17:13 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 21:17:18 info START: Deletion of A book[22m[39m
+[31m[1m2024-10-01 21:17:18 error [DELETE /api/books/66fc5315b96da3953349d8d/delete] Malformatted Id[22m[39m
+[36m[1m2024-10-01 21:19:54 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 21:19:54 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 21:20:03 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 21:20:14 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-01 21:20:14 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-01 21:20:17 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-01 21:20:23 info START: Deletion of A book[22m[39m
+[31m[1m2024-10-01 21:20:23 error [DELETE /api/books/66fc5315b96da3953349d8dy/delete] Malformatted Id[22m[39m
+[36m[1m2024-10-01 21:20:25 info START: Deletion of A book[22m[39m
+[31m[1m2024-10-01 21:20:26 error [DELETE /api/books/66fc5315b96da3953349d8dy/delete] Malformatted Id[22m[39m
+[36m[1m2024-10-01 21:20:33 info START: Deletion of A book[22m[39m
+[36m[1m2024-10-01 21:20:34 info END: Deletion of book successful[22m[39m
+[36m[1m2024-10-01 21:20:41 info START: Attempting getting all Books[22m[39m
+[36m[1m2024-10-01 21:20:41 info END: Books were returned Succesfully[22m[39m
