@@ -303,3 +303,39 @@
 [36m[1m2024-10-01 21:20:34 info END: Deletion of book successful[22m[39m
 [36m[1m2024-10-01 21:20:41 info START: Attempting getting all Books[22m[39m
 [36m[1m2024-10-01 21:20:41 info END: Books were returned Succesfully[22m[39m
+[36m[1m2024-10-02 20:50:41 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-02 20:50:41 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-02 20:50:43 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-02 21:02:38 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-02 21:02:38 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-02 21:02:41 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-02 21:03:17 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-02 21:03:17 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-02 21:03:20 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-02 21:04:51 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-02 21:04:52 info END: Login Attempt was unsuccessful[22m[39m
+[36m[1m2024-10-02 21:05:01 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-02 21:05:01 info END: Logged In Successfully[22m[39m
+[36m[1m2024-10-02 21:05:18 info START: Attempting getting all Books[22m[39m
+[36m[1m2024-10-02 21:05:19 info END: Books were returned Succesfully[22m[39m
+[36m[1m2024-10-02 21:07:38 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-02 21:07:38 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-02 21:07:45 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-02 21:08:09 info START: Attempting creation of a book[22m[39m
+[31m[1m2024-10-02 21:08:11 error [POST /api/books/create] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-10-02 21:08:38 info START: Attempting creation of a book[22m[39m
+[31m[1m2024-10-02 21:08:38 error [POST /api/books/create] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-10-02 21:08:41 info START: Attempting creation of a book[22m[39m
+[31m[1m2024-10-02 21:08:41 error [POST /api/books/create] Token Has Expired, Login Again![22m[39m
+[36m[1m2024-10-02 21:08:58 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-02 21:08:58 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-02 21:09:01 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-02 21:09:21 info START: Attempting creation of a book[22m[39m
+[36m[1m2024-10-02 21:09:21 info END: Book Creation was Successful[22m[39m
+[36m[1m2024-10-02 21:11:44 info START: Attempting Updating a book[22m[39m
+[31m[1m2024-10-02 21:11:44 error [PUT /api/books/66fda8713578623c42bd2f0f/update] Validation failed: genre: `sci` is not a valid enum value for path `genre`.[22m[39m
+[36m[1m2024-10-02 21:12:10 info START: Attempting Updating a book[22m[39m
+[36m[1m2024-10-02 21:12:10 info END: Book was Updated Successfully![22m[39m
+[36m[1m2024-10-02 21:12:56 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-02 21:12:56 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-02 21:12:59 info END: Successfully Connected to DB[22m[39m

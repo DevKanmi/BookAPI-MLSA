@@ -19,3 +19,7 @@
 [31m[1m2024-10-01 21:17:18 error [DELETE /api/books/66fc5315b96da3953349d8d/delete] Malformatted Id[22m[39m
 [31m[1m2024-10-01 21:20:23 error [DELETE /api/books/66fc5315b96da3953349d8dy/delete] Malformatted Id[22m[39m
 [31m[1m2024-10-01 21:20:26 error [DELETE /api/books/66fc5315b96da3953349d8dy/delete] Malformatted Id[22m[39m
+[31m[1m2024-10-02 21:08:11 error [POST /api/books/create] Token Has Expired, Login Again![22m[39m
+[31m[1m2024-10-02 21:08:38 error [POST /api/books/create] Token Has Expired, Login Again![22m[39m
+[31m[1m2024-10-02 21:08:41 error [POST /api/books/create] Token Has Expired, Login Again![22m[39m
+[31m[1m2024-10-02 21:11:44 error [PUT /api/books/66fda8713578623c42bd2f0f/update] Validation failed: genre: `sci` is not a valid enum value for path `genre`.[22m[39m

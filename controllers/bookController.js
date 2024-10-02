@@ -101,3 +101,38 @@ export const deleteABook = async(req, res, next) =>{
             next(error)
         }
 }
+
+
+export const updateABook =  async(req, res, next) =>{
+    if(!req.user) errorResponse(res, StatusCodes.UNAUTHORIZED, `only Logged In users are allowed to access this!`)
+        const userId = req.user.id
+        const bookId = req.params.id
+        const{title, author, genre} = req.body
+    
+        try{
+            logger.info(`START: Attempting Updating a book`)
+    
+            const user = await User.findOne({_id: userId})
+            if(!user){ 
+                logger.info(`END : User was not found`)
+                return errorResponse(res, StatusCodes.NOT_FOUND, `Such User does not exist!`)
+            }
+            const updateBook = await Book.findByIdAndUpdate(
+                {_id : bookId, user: userId},
+                {title: title, author: author, genre: genre},
+                {new: true, runValidators: true}
+            )
+
+            if (!updateBook){
+                return errorResponse(res, StatusCodes.BAD_REQUEST, `Book does not exist or User is not Authorized to Update!`)
+            }
+
+            logger.info(`END: Book was Updated Successfully!`)
+            successResponse(res, StatusCodes.OK, 'successfully updated Book Details', updateBook)
+        }
+        catch(error){
+            console.log(error)
+            next(error)
+        }
+
+}
