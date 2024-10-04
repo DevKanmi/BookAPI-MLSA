@@ -23,7 +23,7 @@ const bookSchema = Schema({
 
 bookSchema.set('toJSON', {
     tranform: (document,requestedObject) =>{
-        requestedObject.id = requestedObject._id
+        requestedObject.id = requestedObject._id.toString()
         delete requestedObject._id
         delete requestedObject.__v
     }

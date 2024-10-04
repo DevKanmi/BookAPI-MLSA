@@ -56,7 +56,7 @@ const errorHandler = (error, req, res, next) =>{
         }
     }
 
-    logger.error(`[${req.method} ${req.url}] ${typeof message === 'string' ? message: JSON.stringify(message)}`)
+    logger.error(`[${req.method} ${req.url}] ${typeof message === 'string' ? message : JSON.stringify(message)}`)
     errorResponse(res,errCode,message)
 }
 

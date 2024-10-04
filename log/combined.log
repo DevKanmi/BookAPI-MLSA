@@ -339,3 +339,17 @@
 [36m[1m2024-10-02 21:12:56 info START: Attempting Connection to DB[22m[39m
 [36m[1m2024-10-02 21:12:56 info Status: Server is Running Successfully on port 3001[22m[39m
 [36m[1m2024-10-02 21:12:59 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-02 22:42:54 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-02 22:42:54 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-02 22:42:59 info END: DB connection Was not Successful, Try Again![22m[39m
+[36m[1m2024-10-02 22:43:28 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-02 22:44:17 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-02 22:44:27 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-02 22:45:12 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-02 22:45:40 info START: Attempting Connection to DB[22m[39m
+[36m[1m2024-10-02 22:45:40 info Status: Server is Running Successfully on port 3001[22m[39m
+[36m[1m2024-10-02 22:45:43 info END: Successfully Connected to DB[22m[39m
+[36m[1m2024-10-02 22:45:47 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-02 22:45:48 info END: Logged In Successfully[22m[39m
+[36m[1m2024-10-02 22:46:21 info START: Attempting to Login[22m[39m
+[36m[1m2024-10-02 22:46:21 info END: Logged In Successfully[22m[39m
